@@ -29,7 +29,7 @@ const Main = () => {
                                     onChange={(e) => setsearch(e.target.value)} 
                                     onKeyPress={searchBook}
                                     className='form-control' 
-                                    placeholder='Enter Book name' />
+                                    placeholder='Enter Book name Ex.React' />
                                 <button className='btn btn-primary'>Search</button>
                             </div>
                             <img src="./images/img1.jpg" alt="book" />
